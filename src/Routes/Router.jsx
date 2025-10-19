@@ -54,7 +54,7 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "/instructor",
+    path: "/i nstructor",
     element: <Instructor></Instructor>,
     children: [
       {

@@ -61,9 +61,9 @@ const Navbar = () => {
             ) : (
               <Link
                 onClick={() => openSignIn()}
-                className="btn btn-primary rounded-3xl bg-blue-500 hover:bg-blue-600 border-none text-white"
+                className="btn flex px-4 py-1 items-center btn-primary rounded-3xl  bg-blue-500 hover:bg-blue-600 border-none text-white"
               >
-                <FaUserPlus className="mr-2" />
+                <FaUserPlus className="mr-2 " />
                 Create Account
               </Link>
             )}

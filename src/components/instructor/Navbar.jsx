@@ -11,6 +11,8 @@ import {
 } from "react-icons/fa";
 
 const InstructorNavbar = () => {
+
+
   const [isOpen, setIsOpen] = useState(false);
   const { user } = useUser();
   const location = useLocation();
