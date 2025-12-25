@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { dummyDashboardData } from "../../assets/assets";
 import Loading from "../../components/student/Loading";
+import Test from "./Test";
 import {
   FaDollarSign,
   FaUsers,

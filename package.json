@@ -14,7 +14,7 @@
     "@stripe/react-stripe-js": "^3.7.0",
     "@stripe/stripe-js": "^7.3.0",
     "@tailwindcss/vite": "^4.1.4",
-    "axios": "^1.9.0",
+    "axios": "^1.13.2",
     "create-vite": "^8.0.2",
     "daisyui": "^5.0.28",
     "humanize-duration": "^3.32.1",

@@ -12,6 +12,8 @@ import StudentsEnrolled from "../pages/Instructor/StudentsEnrolled";
 import Payment from "../pages/student/Payment";
 import LearnMorePage from "../pages/student/LearnMore";
 import ErrorPage from "../pages/student/ErrorPage";
+import UpdateCourse from "../pages/Instructor/UpdateCourse";
+
 
 const router = createBrowserRouter([
   {
@@ -54,7 +56,7 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "/i nstructor",
+    path: "/instructor",
     element: <Instructor></Instructor>,
     children: [
       {
@@ -73,8 +75,17 @@ const router = createBrowserRouter([
         path: "students",
         element: <StudentsEnrolled></StudentsEnrolled>,
       },
+      {
+        path: "update-course/:id",
+        element: <UpdateCourse></UpdateCourse>,
+      },
+
+
     ],
   },
 ]);
+
+
+
 
 export default router;
